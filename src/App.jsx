@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import aleoLogo from "./assets/aleo.svg";
 import "./App.css";
 import votingsystem_program from "../voting_system/build/main.aleo?raw";
 import { AleoWorker } from "./workers/AleoWorker.js";
@@ -41,14 +39,6 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://aleo.org" target="_blank">
-          <img src={aleoLogo} className="logo" alt="Aleo logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
       <h1>Vote but anonymously</h1>
       <div className="card">
         <p>
@@ -58,10 +48,10 @@ function App() {
               : `Click to generate account`}
           </button>
         </p>
-
+        <h3>Proposal</h3>
         <input
           type="text"
-          placeholder="Type here"
+          placeholder="Enter your proposal"
           className="input input-bordered w-full max-w-xl"
         />
         <p>
