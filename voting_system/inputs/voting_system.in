@@ -1,0 +1,26 @@
+// The program input for voting_system/src/main.leo
+// The program input for vote/src/main.leo
+[propose]
+info: ProposalInfo = ProposalInfo {
+    title: 2077160157502449938194577302446444field,
+    content: 1452374294790018907888397545906607852827800436field,
+    proposer: aleo1pk3mt7xfdaefnhved6uy368wv2dwmpqu82jdh8kmk08fyq7mdcpqcg60xc 
+};
+
+[new_ticket]
+pid: field = 2264670486490520844857553240576860973319410481267184439818180411609250173817field;
+voter: address = aleo1pk3mt7xfdaefnhved6uy368wv2dwmpqu82jdh8kmk08fyq7mdcpqcg60xc
+
+[agree]
+ticket: Ticket = Ticket {
+    owner: aleo1pk3mt7xfdaefnhved6uy368wv2dwmpqu82jdh8kmk08fyq7mdcpqcg60xc,
+    pid: 2264670486490520844857553240576860973319410481267184439818180411609250173817field,
+    _nonce: 1637267040221574073903539416642641433705357302885235345311606754421919550724group
+};
+
+[disagree]
+ticket: Ticket = Ticket {
+    owner: aleo1pk3mt7xfdaefnhved6uy368wv2dwmpqu82jdh8kmk08fyq7mdcpqcg60xc,
+    pid: 2264670486490520844857553240576860973319410481267184439818180411609250173817field,
+    _nonce: 1637267040221574073903539416642641433705357302885235345311606754421919550724group
+};
