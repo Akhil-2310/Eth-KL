@@ -62,7 +62,7 @@ function App() {
         <input
           type="text"
           placeholder="Type here"
-          className="input input-bordered w-full max-w-xs"
+          className="input input-bordered w-full max-w-xl"
         />
         <p>
           <button disabled={executing} onClick={execute}>

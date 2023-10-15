@@ -1,5 +1,3 @@
-// The program input for voting_system/src/main.leo
-// The program input for vote/src/main.leo
 [propose]
 info: ProposalInfo = ProposalInfo {
     title: 2077160157502449938194577302446444field,
