@@ -1,4 +1,4 @@
 The traditional voting system for a proposal has a lot of flaws; hence, I have created a voting system where anyone can create a proposal and users can vote anonymously due to zero knowledge proofs.
 
-The problem DeVote solves
+The problem DeVote solves:
 The traditional voting system has a lot of flaws, and the identity of the voter is also exposed. If in a company there is a feature that needs to be implemented and a few people don't want that feature to be implemented, then the company can open a proposal asking how many users want to implement that feature and how many don't want to. In traditional voting, identity is revealed when users vote in a company, but by using DeVote, powered by Aleo, this problem can be solved as zero knowledge proofs come to the rescue. People who agree with the feature can agree, and people who disagree with it can vote for their disagreement without revealing their identity.
